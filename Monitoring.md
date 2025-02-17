@@ -22,3 +22,8 @@ Prometheus is an open-source toolkit for monitoring and alerting. It supports ha
 
 3. **HTTP Server (Web/API Server):**
    - Displays metrics in a human-readable or graphical format for better understanding.
+
+#### **Targeted Resources:**
+- **Servers:** Linux/Windows for CPU, memory, and disk usage.
+- **Services:** Exception tracking.
+- **Applications and Web Servers:** Metrics like HTTP request counts or durations.
