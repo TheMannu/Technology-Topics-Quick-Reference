@@ -27,3 +27,6 @@ Prometheus is an open-source toolkit for monitoring and alerting. It supports ha
 - **Servers:** Linux/Windows for CPU, memory, and disk usage.
 - **Services:** Exception tracking.
 - **Applications and Web Servers:** Metrics like HTTP request counts or durations.
+
+#### **Push Gateway:**
+Used for short-lived jobs (e.g., updates, installations, backups). It collects metrics from these jobs and sends them to exporters when needed.
