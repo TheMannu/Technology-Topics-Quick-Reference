@@ -19,3 +19,6 @@ Prometheus is an open-source toolkit for monitoring and alerting. It supports ha
 2. **TSDB (Time-Series Database):**
    - Stores metrics collected by the data retrieval worker.
    - Makes data available to HTTP servers for user access.
+
+3. **HTTP Server (Web/API Server):**
+   - Displays metrics in a human-readable or graphical format for better understanding.
