@@ -10,3 +10,8 @@
 
 ### **Prometheus**
 Prometheus is an open-source toolkit for monitoring and alerting. It supports hardware and software monitoring, written in Go but supports multiple languages using client libraries.
+
+#### **Key Components of Prometheus:**
+1. **Data Retrieval Worker:**
+   - Fetches data from target resources via HTTP endpoints.
+   - Uses exporters to convert data to HTTP format if endpoints are unavailable.
