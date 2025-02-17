@@ -15,3 +15,7 @@ Prometheus is an open-source toolkit for monitoring and alerting. It supports ha
 1. **Data Retrieval Worker:**
    - Fetches data from target resources via HTTP endpoints.
    - Uses exporters to convert data to HTTP format if endpoints are unavailable.
+
+2. **TSDB (Time-Series Database):**
+   - Stores metrics collected by the data retrieval worker.
+   - Makes data available to HTTP servers for user access.
