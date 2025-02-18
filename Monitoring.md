@@ -30,3 +30,17 @@ Prometheus is an open-source toolkit for monitoring and alerting. It supports ha
 
 #### **Push Gateway:**
 Used for short-lived jobs (e.g., updates, installations, backups). It collects metrics from these jobs and sends them to exporters when needed.
+
+#### **Prometheus Configuration (YAML):**
+Defines the components and parameters for data collection:
+```yaml
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+rule_files:
+  - "rules.yml"
+scrape_configs:
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:8080"]
+```
