@@ -48,3 +48,8 @@ scrape_configs:
 #### **Alert Manager:**
 Prometheus sends alerts to an alert manager for further action:
 - Notifications via email or other systems.
+
+#### **Visualization:**
+- **Default Web UI:** Built-in for PromQL queries.
+- **Grafana:** Offers a user-friendly interface for visualizing metrics.
+
