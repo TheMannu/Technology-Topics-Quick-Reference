@@ -60,3 +60,9 @@ Grafana is an open-source visualization tool for metrics analysis. It helps simp
 - **Alerts:** Notifications based on metrics.
 - **Collaboration:** Share dashboards with teams.
 - **Time-Series Analytics:** Real-time insights.
+
+#### **Integration with Prometheus:**
+- Prometheus pulls and stores data from sources.
+- Grafana reads this data and visualizes it for users.
+
+---
