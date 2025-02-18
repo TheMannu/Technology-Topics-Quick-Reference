@@ -66,3 +66,7 @@ Grafana is an open-source visualization tool for metrics analysis. It helps simp
 - Grafana reads this data and visualizes it for users.
 
 ---
+
+# Helm for Kubernetes Monitoring
+
+Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies application deployment using charts.
