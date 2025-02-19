@@ -74,4 +74,8 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
 ### Steps for Prometheus and Grafana Setup with Helm:
 1. **Create a GKE Cluster:**
    Set up a Kubernetes cluster.
-  
+
+2. **Create a Monitoring Namespace:**
+   ```bash
+   kubectl create ns monitor
+   ```
