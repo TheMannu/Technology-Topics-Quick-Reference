@@ -70,3 +70,8 @@ Grafana is an open-source visualization tool for metrics analysis. It helps simp
 # Helm for Kubernetes Monitoring
 
 Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies application deployment using charts.
+
+### Steps for Prometheus and Grafana Setup with Helm:
+1. **Create a GKE Cluster:**
+   Set up a Kubernetes cluster.
+  
