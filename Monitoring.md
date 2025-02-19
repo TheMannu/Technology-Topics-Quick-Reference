@@ -79,3 +79,9 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
    ```bash
    kubectl create ns monitor
    ```
+
+3. **Add Helm Repo:**
+   ```bash
+   helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+   helm repo update
+   ```
