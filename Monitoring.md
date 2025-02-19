@@ -85,3 +85,8 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
    helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
    helm repo update
    ```
+
+4. **Install Prometheus and Grafana:**
+   ```bash
+   helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --namespace monitor
+   ```
