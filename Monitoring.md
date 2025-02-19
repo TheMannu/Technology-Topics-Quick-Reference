@@ -95,3 +95,8 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
    ```bash
    kubectl get pods -n monitor
    ```
+
+6. **Expose Grafana Service:**
+   ```bash
+   kubectl expose deployment kube-prometheus-stack-grafana --port=3000 --target-port=3000 --name=grafana --type=LoadBalancer -n monitor
+   ```
