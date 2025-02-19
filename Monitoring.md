@@ -90,3 +90,8 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
    ```bash
    helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --namespace monitor
    ```
+
+5. **Verify Installation:**
+   ```bash
+   kubectl get pods -n monitor
+   ```
