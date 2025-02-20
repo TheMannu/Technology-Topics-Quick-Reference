@@ -111,3 +111,8 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
    Preconfigured dashboards available:
    - General / Kubernetes / Compute Resources / Cluster
    - General / Kubernetes / Compute Resources / Namespace (Pods)
+
+9. **Delete Helm Chart (if needed):**
+   ```bash
+   helm uninstall [RELEASE_NAME]
+   ```
