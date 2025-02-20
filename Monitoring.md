@@ -106,3 +106,8 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
    kubectl get svc -n monitor
    ```
    Default login credentials: `admin/prom-operator`.
+
+8. **Explore Dashboards:**
+   Preconfigured dashboards available:
+   - General / Kubernetes / Compute Resources / Cluster
+   - General / Kubernetes / Compute Resources / Namespace (Pods)
