@@ -116,3 +116,8 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
    ```bash
    helm uninstall [RELEASE_NAME]
    ```
+---
+# Benefits of Prometheus and Grafana Integration
+
+- **Prometheus:** Handles data collection and alerting.
+- **Grafana:** Offers advanced data visualization and user-friendly dashboards.
