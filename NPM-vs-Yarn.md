@@ -10,3 +10,10 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
   npm -v
   node -v
   ```
+
+- **Yarn**: Requires a separate installation via NPM or directly through the Yarn website.  
+  Example:  
+  ```bash
+  npm install -g yarn
+  yarn --version
+  ```
