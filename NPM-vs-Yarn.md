@@ -23,3 +23,7 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 ### NPM
 - NPM v5+ introduced a lock file and some optimizations, but traditionally it was slower due to less aggressive caching and network requests.
 - With parallelization and improvements in NPM v7+, the speed is much better but still slightly behind Yarn in some cases.
+
+### Yarn
+- Yarn is known for being faster, especially with its deterministic dependency resolution, aggressive caching, and parallelized operations.
+- Yarn can install packages faster, especially on repeated installs due to better offline cache handling.
