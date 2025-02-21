@@ -31,3 +31,5 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 ## Lock File
 
 - **NPM**: Uses `package-lock.json` to lock dependencies, ensuring the same versions are installed across different environments.
+
+- **Yarn**: Uses `yarn.lock`, which performs a similar function. Some argue Yarn's lock file is more readable and resolves dependencies more deterministically.
