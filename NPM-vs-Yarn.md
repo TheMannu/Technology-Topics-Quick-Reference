@@ -27,3 +27,7 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 ### Yarn
 - Yarn is known for being faster, especially with its deterministic dependency resolution, aggressive caching, and parallelized operations.
 - Yarn can install packages faster, especially on repeated installs due to better offline cache handling.
+
+## Lock File
+
+- **NPM**: Uses `package-lock.json` to lock dependencies, ensuring the same versions are installed across different environments.
