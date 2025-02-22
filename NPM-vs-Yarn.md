@@ -42,3 +42,9 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 
 ### Yarn
 - Yarn has always had a deterministic dependency resolution system, meaning it ensures the same dependency tree across installations, reducing issues with module conflicts.
+
+## Offline Mode
+
+- **NPM**:
+  - NPM does have caching, but offline support is not as robust.
+  - Starting from NPM v7+, offline support has improved, but it's not the default behavior.
