@@ -63,3 +63,9 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
   ```bash
   npm install --workspace=<workspace-name>
   ```
+
+- **Yarn**: Yarn has supported workspaces since its early versions, and its implementation is more mature and widely used for managing monorepos.  
+  Example:  
+  ```bash
+  yarn workspaces list
+  ```
