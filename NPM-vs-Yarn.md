@@ -55,3 +55,11 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
     ```bash
     yarn cache list
     ```
+
+## Workspaces Support
+
+- **NPM**: Introduced workspaces support in NPM v7, allowing users to manage monorepos (multiple projects in one repository) with shared dependencies more efficiently.  
+  Example:  
+  ```bash
+  npm install --workspace=<workspace-name>
+  ```
