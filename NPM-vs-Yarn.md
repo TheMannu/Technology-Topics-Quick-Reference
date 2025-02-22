@@ -39,3 +39,6 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 ### NPM
 - NPM v6 and below had a nested dependency structure that could lead to issues like "dependency hell."
 - NPM v7+ now uses a "flat" `node_modules` structure similar to Yarn's approach, which helps avoid these issues.
+
+### Yarn
+- Yarn has always had a deterministic dependency resolution system, meaning it ensures the same dependency tree across installations, reducing issues with module conflicts.
