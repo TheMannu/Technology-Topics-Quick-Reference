@@ -96,3 +96,13 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
   ```bash
   npm install -g <package-name>
   ```
+
+### Yarn
+- Install a package:  
+  ```bash
+  yarn add <package-name>
+  ```
+- Install globally:  
+  ```bash
+  yarn global add <package-name>
+  ```
