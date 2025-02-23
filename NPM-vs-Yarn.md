@@ -69,3 +69,12 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
   ```bash
   yarn workspaces list
   ```
+  
+## Security
+
+- **NPM**: NPM audits your packages for known vulnerabilities and displays security warnings. Use `npm audit` for a detailed report.  
+  Example:  
+  ```bash
+  npm audit
+  npm audit fix
+  ```
