@@ -112,3 +112,8 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 - **NPM**: Monorepo support (with workspaces) was added in NPM v7, but it is still not as feature-rich or performant as Yarn for large monorepos.
 - **Yarn**: Yarn's workspaces feature has long been a favorite for managing monorepos and large-scale projects, offering more control and scalability.
 
+
+## Plug'n'Play (PnP)
+
+- **NPM**: Does not support Plug'n'Play natively.
+- **Yarn**: Yarn 2 introduced Plug'n'Play (PnP), which eliminates the need for `node_modules`.  
