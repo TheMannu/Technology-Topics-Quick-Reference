@@ -123,3 +123,7 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 - **NPM**:
   - Being the default package manager for Node.js, NPM has the largest ecosystem of packages.
   - Most tutorials, documentation, and third-party integrations are focused on NPM.
+
+- **Yarn**:
+  - Yarn was developed by Facebook and has a large community.
+  - Yarn's popularity has grown in specific communities due to its performance and feature advantages.
