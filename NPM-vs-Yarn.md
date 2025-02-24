@@ -127,3 +127,11 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 - **Yarn**:
   - Yarn was developed by Facebook and has a large community.
   - Yarn's popularity has grown in specific communities due to its performance and feature advantages.
+
+## Versioning
+
+- **NPM**:  
+  Example:  
+  ```bash
+  npm version <new-version>
+  ```
