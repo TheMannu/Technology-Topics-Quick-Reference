@@ -144,3 +144,14 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 
 - **NPM**: Installs global packages in a central directory. Ensure the directory is added to your `PATH`.
 - **Yarn**: Installs global packages in a separate directory and automatically links them.
+
+## Migration
+
+- **NPM to Yarn**: Install Yarn and run:  
+  ```bash
+  yarn install
+  ```
+- **Yarn to NPM**: Delete `yarn.lock` and run:  
+  ```bash
+  npm install
+  ```
