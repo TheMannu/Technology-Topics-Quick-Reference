@@ -135,3 +135,8 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
   ```bash
   npm version <new-version>
   ```
+  - **Yarn**:  
+  Example:  
+  ```bash
+  yarn version --new-version <new-version>
+  ```
