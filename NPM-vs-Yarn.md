@@ -155,3 +155,9 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
   ```bash
   npm install
   ```
+
+## Other Notable Features
+
+- **NPM**:
+  - Integrates closely with the npm registry.
+  - Has built-in auditing and security features.
