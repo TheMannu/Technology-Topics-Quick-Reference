@@ -161,3 +161,8 @@ Both **NPM (Node Package Manager)** and **Yarn** are package managers used for m
 - **NPM**:
   - Integrates closely with the npm registry.
   - Has built-in auditing and security features.
+
+- **Yarn**:
+  - Offline installation.
+  - Zero Installs with Yarn 2 (your codebase contains all dependencies).
+  - Better deterministic builds due to the `yarn.lock` file.
