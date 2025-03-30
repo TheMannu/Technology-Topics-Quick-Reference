@@ -52,3 +52,16 @@ Access Advisor provides last accessed information for IAM users, groups, and rol
 ✅ Enable Access Analyzer – Continuously monitor for unintended external access.
 ✅ Use AWS IAM Policy Simulator – Test policies before applying changes.
 ✅ Automate with AWS Organizations & SCPs – Enforce guardrails across accounts.
+
+### Example Workflow
+1. Access Advisor shows that a DevOps IAM Role has unused RDS permissions for the past 6 months.
+
+2. Access Analyzer finds that an S3 bucket policy allows public read access.
+
+3. Take Action:
+
+  - Remove RDS permissions from the DevOps role (least privilege).
+
+  - Modify the S3 bucket policy to restrict public access.
+
+  - Document justifications for remaining permissions.
