@@ -15,3 +15,9 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 - Unused access keys (potential security risk)
 - Users without MFA (violates security best practices)
 - Old passwords that haven’t been rotated
+
+### 3. Downloadable in CSV Format
+
+- Can be opened in Excel, Google Sheets, or analyzed programmatically
+
+--- 
