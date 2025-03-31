@@ -9,3 +9,9 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 - Password status (enabled/disabled)
 - MFA (Multi-Factor Authentication) status
 - Last used timestamps (for passwords & access keys)
+
+### 2. Helps Identify Security Risks
+
+- Unused access keys (potential security risk)
+- Users without MFA (violates security best practices)
+- Old passwords that haven’t been rotated
