@@ -57,3 +57,7 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 ✅ **Remove Unnecessary Passwords** → Disable `password_enabled` for service roles.  
 
 ---
+
+### **Automating Remediation**
+You can automate checks using:
+- **AWS Config Rules** (e.g., `iam-user-mfa-enabled`, `access-keys-rotated`)
