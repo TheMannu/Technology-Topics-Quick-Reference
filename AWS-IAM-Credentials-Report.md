@@ -69,3 +69,5 @@ You can automate checks using:
 ### **Best Practices**
 🔹 **Review the report monthly** (or automate checks).  
 🔹 **Follow Least Privilege** – Remove unused permissions. 
+🔹 **Enforce MFA for all human users**.  
+🔹 **Rotate access keys every 90 days**. 
