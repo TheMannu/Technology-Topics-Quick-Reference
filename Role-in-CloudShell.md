@@ -1,2 +1,3 @@
 ### 1. **Performing Tasks as a Role in CloudShell**
    - AWS CloudShell automatically inherits the permissions of the IAM user or role that you are logged in as in the AWS Management Console.
+   - If you need to perform tasks using a specific IAM role, you can assume that role in the AWS Management Console before launching CloudShell. Once you assume the role, CloudShell will have the permissions associated with that role.
