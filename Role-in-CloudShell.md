@@ -16,3 +16,11 @@
    - IAM roles provide temporary security credentials that are automatically rotated, reducing the risk of credential exposure.
 
    - By using roles, you can follow the principle of least privilege, granting only the permissions necessary to perform specific tasks.
+
+
+## Example: Assuming a Role in CloudShell
+### 1. **Assume the Role in the AWS Management Console:**
+
+   - Navigate to the IAM service in the AWS Management Console.
+   - Switch to the role you want to assume by clicking on your username in the top-right corner and selecting "Switch Role."
+   - Enter the account ID, role name, and optionally a display name for the role.
