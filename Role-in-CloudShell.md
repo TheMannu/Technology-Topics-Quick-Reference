@@ -35,3 +35,6 @@
 ### 2. **Perform Tasks:**
 
    - You can now use AWS CLI commands or other tools within CloudShell to perform tasks with the permissions of the assumed role.
+
+## Benefits of Using CloudShell:
+  - No Setup Required: CloudShell comes pre-installed with popular tools like the AWS CLI, SDKs, and other utilities.
