@@ -46,3 +46,5 @@
 - Session Duration: CloudShell sessions have a maximum duration (currently 20 minutes of inactivity or 12 hours total, whichever comes first).
 
 - Region-Specific: As mentioned, CloudShell is tied to the region you are working in, so you need to launch a new session if you switch regions.
+
+### AWS CloudShell with IAM roles is a secure and efficient way to manage your AWS resources without the need to store long-term credentials on your virtual machines.
