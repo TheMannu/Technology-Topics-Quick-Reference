@@ -24,3 +24,10 @@
    - Navigate to the IAM service in the AWS Management Console.
    - Switch to the role you want to assume by clicking on your username in the top-right corner and selecting "Switch Role."
    - Enter the account ID, role name, and optionally a display name for the role.
+
+
+### 2. **Launch CloudShell:**
+
+   - After assuming the role, launch CloudShell from the AWS Management Console.
+
+   - CloudShell will now have the permissions associated with the role you assumed.
