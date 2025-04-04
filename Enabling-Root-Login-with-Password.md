@@ -9,3 +9,13 @@
    ```bash
    sudo -i
    ```
+
+## **2. Enabling Root Login & Password Authentication**
+1. **Edit SSH configuration**:  
+   ```bash
+   vim /etc/ssh/sshd_config
+   ```
+2. **Make the following changes** (Press `i` to enter insert mode):  
+   ```plaintext
+   PermitRootLogin yes
+   PasswordAuthentication yes
