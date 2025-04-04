@@ -38,3 +38,14 @@ ssh root@<IP_Address>
 (Enter the password when prompted.)
 
 ---
+
+
+## **3. Adding a New User (Tarun)**
+1. **Create a new user**:  
+   ```bash
+   useradd tarun
+   ```
+2. **Switch to the new user**:  
+   ```bash
+   su - tarun
+   ```
