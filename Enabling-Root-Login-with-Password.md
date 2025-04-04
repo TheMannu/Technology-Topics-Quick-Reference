@@ -19,3 +19,9 @@
    ```plaintext
    PermitRootLogin yes
    PasswordAuthentication yes
+
+3. **Save and exit** (Press `Esc`, then `:wq!`).  
+4. **Set a password for root**:  
+   ```bash
+   passwd root
+   ```
