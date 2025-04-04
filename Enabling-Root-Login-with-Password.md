@@ -59,3 +59,15 @@ ssh root@<IP_Address>
    cd ~/.ssh
    ls
    ```
+5. **View the public key**:  
+   ```bash
+   cat id_rsa.pub
+   ```
+   - **Share this public key with Tarun**.  
+6. **Set a password for Tarun**:  
+   ```bash
+   passwd tarun
+   ```
+   - Enter the password twice.  
+
+---
