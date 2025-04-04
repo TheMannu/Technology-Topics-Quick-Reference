@@ -25,3 +25,8 @@
    ```bash
    passwd root
    ```
+   - Enter the new password twice.  
+5. **Restart SSH service**:  
+   ```bash
+   systemctl restart sshd
+   ```
