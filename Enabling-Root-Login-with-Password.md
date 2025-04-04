@@ -49,3 +49,13 @@ ssh root@<IP_Address>
    ```bash
    su - tarun
    ```
+3. **Generate SSH key pair**:  
+   ```bash
+   ssh-keygen
+   ```
+   - Press `Enter` for all prompts (default settings).  
+4. **Navigate to `.ssh` directory**:  
+   ```bash
+   cd ~/.ssh
+   ls
+   ```
