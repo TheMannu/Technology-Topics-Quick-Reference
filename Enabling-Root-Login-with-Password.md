@@ -30,3 +30,11 @@
    ```bash
    systemctl restart sshd
    ```
+
+### **Now, root can log in via password:**
+```bash
+ssh root@<IP_Address>
+```
+(Enter the password when prompted.)
+
+---
