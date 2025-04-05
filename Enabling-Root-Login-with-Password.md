@@ -107,6 +107,11 @@ ssh root@<IP_Address>
    ```bash
    rm -rf foldername
    ```
+7. **Restart Apache**:  
+   ```bash
+   systemctl restart httpd
+   systemctl enable httpd
+   ```
 
 
 
