@@ -76,3 +76,8 @@ ssh root@<IP_Address>
 1. **Save the public key** (`id_rsa.pub`) as `key.pem`.  
 2. **Connect to the instance**:  
    ```bash
+   ssh -i key.pem tarun@<Public_IP>
+   ```
+3. **Enter the password** when prompted.  
+
+---
