@@ -91,6 +91,14 @@ ssh root@<IP_Address>
    ```bash
    cd /var/www/html
    ```
+3. **Download a website (e.g., WordPress)**:  
+   ```bash
+   wget <Download_Link>
+   ```
+4. **Unzip the file**:  
+   ```bash
+   unzip <filename.zip>
+   ```
 
 
 
