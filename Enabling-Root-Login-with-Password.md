@@ -82,6 +82,19 @@ ssh root@<IP_Address>
 
 ---
 
+## **5. Setting Up a Web Server (Apache HTTPD)**
+1. **Install Apache**:  
+   ```bash
+   yum install httpd -y
+   ```
+2. **Navigate to web directory**:  
+   ```bash
+   cd /var/www/html
+   ```
+
+
+
+
 ## **Summary of Steps**
 | **Task** | **Command** |
 |----------|------------|
