@@ -81,3 +81,8 @@ ssh root@<IP_Address>
 3. **Enter the password** when prompted.  
 
 ---
+
+## **Summary of Steps**
+| **Task** | **Command** |
+|----------|------------|
+| **Enable Root Login** | Edit `/etc/ssh/sshd_config` → `PermitRootLogin yes` & `PasswordAuthentication yes` |
