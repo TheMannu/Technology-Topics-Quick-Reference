@@ -99,6 +99,14 @@ ssh root@<IP_Address>
    ```bash
    unzip <filename.zip>
    ```
+5. **Move files to root directory**:  
+   ```bash
+   cp -rvf foldername/* .
+   ```
+6. **Remove the extracted folder**:  
+   ```bash
+   rm -rf foldername
+   ```
 
 
 
