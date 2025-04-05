@@ -71,3 +71,8 @@ ssh root@<IP_Address>
    - Enter the password twice.  
 
 ---
+
+## **4. Tarun’s Login Process**
+1. **Save the public key** (`id_rsa.pub`) as `key.pem`.  
+2. **Connect to the instance**:  
+   ```bash
