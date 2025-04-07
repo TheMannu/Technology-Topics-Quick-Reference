@@ -135,3 +135,5 @@ ssh root@<IP_Address>
 | **Generate SSH Key** | `ssh-keygen` (as `tarun`) |
 | **Set User Password** | `passwd tarun` |
 | **Install Apache** | `yum install httpd -y` |
+| **Deploy Website** | `wget`, `unzip`, `cp -rvf`, `rm -rf` |
+| **Start HTTPD** | `systemctl restart httpd` |
