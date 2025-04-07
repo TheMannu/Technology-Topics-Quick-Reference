@@ -113,6 +113,9 @@ ssh root@<IP_Address>
    systemctl enable httpd
    ```
 
+### **Verification**
+- **Check inbound rules** in the **EC2 Security Group** (ensure port `80` is open). 
+
 
 
 
