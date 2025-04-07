@@ -129,3 +129,6 @@ ssh root@<IP_Address>
 | **Task** | **Command** |
 |----------|------------|
 | **Enable Root Login** | Edit `/etc/ssh/sshd_config` → `PermitRootLogin yes` & `PasswordAuthentication yes` |
+| **Set Root Password** | `passwd root` |
+| **Restart SSH** | `systemctl restart sshd` |
+| **Add New User** | `useradd tarun` |
