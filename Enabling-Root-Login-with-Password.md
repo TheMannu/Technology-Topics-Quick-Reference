@@ -137,3 +137,6 @@ ssh root@<IP_Address>
 | **Install Apache** | `yum install httpd -y` |
 | **Deploy Website** | `wget`, `unzip`, `cp -rvf`, `rm -rf` |
 | **Start HTTPD** | `systemctl restart httpd` |
+
+
+### This guide ensures **secure root access**, **user creation with SSH keys**, and **web server deployment** on Amazon Linux. 
