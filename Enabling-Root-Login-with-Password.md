@@ -115,6 +115,12 @@ ssh root@<IP_Address>
 
 ### **Verification**
 - **Check inbound rules** in the **EC2 Security Group** (ensure port `80` is open). 
+- **Access the website** via browser:  
+  ```
+  http://<Public_IP>
+  ```
+
+---
 
 
 
