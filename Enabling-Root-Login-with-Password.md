@@ -132,3 +132,6 @@ ssh root@<IP_Address>
 | **Set Root Password** | `passwd root` |
 | **Restart SSH** | `systemctl restart sshd` |
 | **Add New User** | `useradd tarun` |
+| **Generate SSH Key** | `ssh-keygen` (as `tarun`) |
+| **Set User Password** | `passwd tarun` |
+| **Install Apache** | `yum install httpd -y` |
