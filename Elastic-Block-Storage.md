@@ -26,3 +26,13 @@
 ### **d) Availability Zone (AZ) Dependency**
 - EBS volumes **must be in the same AZ** as the EC2 instance to be attached.
 - To **move EBS to another AZ**, a **snapshot backup** must be taken and restored in the new AZ.
+
+### **e) Resizing EBS Volumes**
+- **EBS volumes can be increased** in size **without stopping** the instance.
+- **Decreasing size is not allowed** (AWS does not support downgrading).
+- **Workaround for reducing size**:
+  - Create a **new smaller EBS volume**.
+  - **Copy data** from the larger volume to the smaller one.
+  - **Unmount the old volume** and **mount the new one**.
+
+---
