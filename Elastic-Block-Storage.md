@@ -22,3 +22,7 @@
 - **Data persists** even if the EC2 instance is **stopped or terminated**.
 - **Multiple EBS volumes** can be attached to a **single EC2 instance**.
 - **Specific EBS types (io1 & io2)** support **multi-attach**, meaning they can be **attached to multiple EC2 instances simultaneously**.
+
+### **d) Availability Zone (AZ) Dependency**
+- EBS volumes **must be in the same AZ** as the EC2 instance to be attached.
+- To **move EBS to another AZ**, a **snapshot backup** must be taken and restored in the new AZ.
