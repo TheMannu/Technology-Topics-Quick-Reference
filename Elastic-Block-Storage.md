@@ -17,3 +17,8 @@
 ### **b) Performance & Latency**
 - **Read/Write operations** on EBS have **minimal latency**, though it is **slightly slower** than instance store (ephemeral storage).
 - The **latency is negligible** for most workloads.
+
+### **c) Persistence & Multi-Attach**
+- **Data persists** even if the EC2 instance is **stopped or terminated**.
+- **Multiple EBS volumes** can be attached to a **single EC2 instance**.
+- **Specific EBS types (io1 & io2)** support **multi-attach**, meaning they can be **attached to multiple EC2 instances simultaneously**.
