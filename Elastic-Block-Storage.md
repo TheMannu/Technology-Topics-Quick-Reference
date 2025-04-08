@@ -6,3 +6,10 @@
 - EBS volumes can be **mounted** on EC2 instances and used as **persistent storage**.
 
 ---
+
+## **2. Key Characteristics of EBS**
+### **(a) EBS as Root Volume**
+- In **Windows**, the **C:** drive is typically an EBS volume.
+- In **Linux**, it is called the **Root Volume**.
+- The **operating system (OS)** is installed on this **root volume (EBS)**.
+- The EBS volume is **attached to EC2 via SAN (Storage Area Network)**.
