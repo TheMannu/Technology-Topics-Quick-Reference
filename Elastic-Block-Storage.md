@@ -13,3 +13,7 @@
 - In **Linux**, it is called the **Root Volume**.
 - The **operating system (OS)** is installed on this **root volume (EBS)**.
 - The EBS volume is **attached to EC2 via SAN (Storage Area Network)**.
+
+### **b) Performance & Latency**
+- **Read/Write operations** on EBS have **minimal latency**, though it is **slightly slower** than instance store (ephemeral storage).
+- The **latency is negligible** for most workloads.
