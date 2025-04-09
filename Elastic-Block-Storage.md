@@ -65,3 +65,7 @@
    ```sh
    umount /test/
    ```
+
+2. **Detach via AWS Console**.
+3. **Reattach to another EC2** (must be in the same AZ).
+
