@@ -52,3 +52,10 @@
 2. **Attach** via AWS Console:  
    - Select EBS → **Actions → Attach Volume**.
 3. **On EC2 (Linux CLI)**:
+   ```sh
+   lsblk                  # Check available block devices
+   sudo mkfs.ext4 /dev/xvdf  # Format EBS (ext4 filesystem)
+   sudo mkdir /test       # Create mount directory
+   sudo mount /dev/xvdf /test  # Mount EBS
+   mountpoint /test       # Verify mounting
+   ```
