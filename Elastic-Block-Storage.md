@@ -36,3 +36,8 @@
   - **Unmount the old volume** and **mount the new one**.
 
 ---
+
+## **3. EBS vs. Instance Store (Ephemeral Storage)**
+| Feature | **EBS (Persistent Storage)** | **Instance Store (Temporary Storage)** |
+|---------|-----------------------------|----------------------------------|
+| **Persistence** | Data remains after instance stop/termination | **Data is lost** on stop/restart |
