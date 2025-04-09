@@ -45,3 +45,10 @@
 | **Use Case** | Long-term storage (OS, databases) | **Temporary data** (caching, buffers) |
 
 ---
+
+## **4. Attaching & Configuring EBS Volumes**
+### **a) Attaching an EBS Volume**
+1. **Create an EBS volume** in the **same AZ** as the EC2 instance.
+2. **Attach** via AWS Console:  
+   - Select EBS → **Actions → Attach Volume**.
+3. **On EC2 (Linux CLI)**:
