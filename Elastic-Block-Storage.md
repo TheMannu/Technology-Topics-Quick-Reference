@@ -41,3 +41,7 @@
 | Feature | **EBS (Persistent Storage)** | **Instance Store (Temporary Storage)** |
 |---------|-----------------------------|----------------------------------|
 | **Persistence** | Data remains after instance stop/termination | **Data is lost** on stop/restart |
+| **Performance** | Slightly slower (network-based) | **Faster** (directly attached) |
+| **Use Case** | Long-term storage (OS, databases) | **Temporary data** (caching, buffers) |
+
+---
