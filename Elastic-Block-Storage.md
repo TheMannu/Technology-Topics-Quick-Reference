@@ -59,3 +59,9 @@
    sudo mount /dev/xvdf /test  # Mount EBS
    mountpoint /test       # Verify mounting
    ```
+
+### **b) Detaching an EBS Volume**
+1. **Unmount** in CLI:
+   ```sh
+   umount /test/
+   ```
