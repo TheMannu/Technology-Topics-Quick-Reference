@@ -76,11 +76,17 @@
   lsblk      # Shows new size
   df -h      # Still shows old size (needs resizing)
   ```
-  
+
 - **Resize filesystem**:
   ```sh
   resize2fs /dev/xvdf   # Expands filesystem
   ```
 
 ---
+
+## **5. Multi-Attach EBS (io1 & io2)**
+- **Only io1 & io2** support **multi-attach**.
+- **Requirements**:
+  - EC2 must use **Nitro Hypervisor** (not Xen).
+  - **File system must be cluster-aware** (regular ext4/xfs may not work).
 
