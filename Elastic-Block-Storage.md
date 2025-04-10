@@ -96,3 +96,8 @@
 
 ---
 
+## **6. EBS Volume Types & Performance**
+| **Volume Type** | **gp3** | **gp2** | **io2 Block Express** | **io1** |
+|----------------|---------|---------|----------------------|--------|
+| **Max Size** | 16 TiB | 64 TiB | 16 TiB | 64 TiB |
+| **Max IOPS** | 16,000 | 16,000 | 256,000 | 64,000 |
