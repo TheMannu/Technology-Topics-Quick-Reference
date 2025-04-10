@@ -89,4 +89,10 @@
 - **Requirements**:
   - EC2 must use **Nitro Hypervisor** (not Xen).
   - **File system must be cluster-aware** (regular ext4/xfs may not work).
+- **Steps**:
+  1. **Stop EC2** if using Xen.
+  2. **Change instance type** to **Nitro-based**.
+  3. **Attach EBS to multiple EC2** instances.
+
+---
 
