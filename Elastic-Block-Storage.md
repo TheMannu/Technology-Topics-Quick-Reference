@@ -53,11 +53,11 @@
    - Select EBS → **Actions → Attach Volume**.
 3. **On EC2 (Linux CLI)**:
    ```sh
-   lsblk                  # Check available block devices
-   sudo mkfs.ext4 /dev/xvdf  # Format EBS (ext4 filesystem)
-   sudo mkdir /test       # Create mount directory
-   sudo mount /dev/xvdf /test  # Mount EBS
-   mountpoint /test       # Verify mounting
+   lsblk                         # Check available block devices
+   sudo mkfs.ext4 /dev/xvdf      # Format EBS (ext4 filesystem)
+   sudo mkdir /test              # Create mount directory
+   sudo mount /dev/xvdf /test    # Mount EBS
+   mountpoint /test              # Verify mounting
    ```
 
 ### **b) Detaching an EBS Volume**
@@ -68,4 +68,12 @@
 
 2. **Detach via AWS Console**.
 3. **Reattach to another EC2** (must be in the same AZ).
+
+### **c) Resizing & Expanding File System**
+- **Increase EBS size** via AWS Console (**Modify Volume**).
+- **Check new size**:
+  ```sh
+  lsblk      # Shows new size
+  df -h      # Still shows old size (needs resizing)
+  ```
 
