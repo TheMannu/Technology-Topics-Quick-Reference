@@ -103,3 +103,8 @@
 | **Max IOPS** | 16,000 | 16,000 | 256,000 | 64,000 |
 | **Max Throughput** | 1,000 MiB/s | 250 MiB/s | 4,000 MiB/s | 1,000 MiB/s |
 | **Multi-Attach** | ❌ No | ❌ No | ✅ Yes | ✅ Yes |
+
+
+📌 **Reference**: [AWS EBS Volume Types](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html)
+
+---
