@@ -76,4 +76,11 @@
   lsblk      # Shows new size
   df -h      # Still shows old size (needs resizing)
   ```
+  
+- **Resize filesystem**:
+  ```sh
+  resize2fs /dev/xvdf   # Expands filesystem
+  ```
+
+---
 
