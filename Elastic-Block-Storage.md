@@ -130,3 +130,7 @@
 - Works for volumes **up to 16 TiB**.
 
 ---
+
+## **8. Encryption in EBS**
+- **Data at rest**: Encrypted using **AWS KMS**.
+- **Data in transit**: Encrypted if EBS is encrypted.
