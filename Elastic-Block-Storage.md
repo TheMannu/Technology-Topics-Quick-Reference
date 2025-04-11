@@ -108,3 +108,9 @@
 📌 **Reference**: [AWS EBS Volume Types](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html)
 
 ---
+
+## **7. Snapshots & Backup**
+### **a) What is a Snapshot?**
+- **Point-in-time backup** of an EBS volume.
+- Stored in **Amazon S3** (incremental backups).
+- Used to **restore EBS** in **different AZ/Region**.
