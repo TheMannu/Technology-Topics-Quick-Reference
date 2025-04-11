@@ -114,3 +114,9 @@
 - **Point-in-time backup** of an EBS volume.
 - Stored in **Amazon S3** (incremental backups).
 - Used to **restore EBS** in **different AZ/Region**.
+
+### **b) Managing Snapshots**
+- **Lifecycle Manager**: Automates **scheduled snapshots**.
+- **Recycle Bin**: Temporarily stores **deleted snapshots** (retention period).
+- **Copying Snapshots**:
+  - **Action → Copy Snapshot → Select Region**.
