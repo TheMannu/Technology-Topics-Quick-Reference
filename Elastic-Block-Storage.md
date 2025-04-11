@@ -123,3 +123,10 @@
 - **Encryption**:
   - If **source EBS is encrypted**, snapshot & restored volumes **remain encrypted**.
   - **Cannot decrypt** an encrypted snapshot (must create a new unencrypted one).
+
+### **c) Fast Snapshot Restore (FSR)**
+- **Speeds up EBS restoration** from snapshots.
+- Must be **enabled per snapshot**.
+- Works for volumes **up to 16 TiB**.
+
+---
