@@ -120,3 +120,6 @@
 - **Recycle Bin**: Temporarily stores **deleted snapshots** (retention period).
 - **Copying Snapshots**:
   - **Action → Copy Snapshot → Select Region**.
+- **Encryption**:
+  - If **source EBS is encrypted**, snapshot & restored volumes **remain encrypted**.
+  - **Cannot decrypt** an encrypted snapshot (must create a new unencrypted one).
