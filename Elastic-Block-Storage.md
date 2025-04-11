@@ -134,3 +134,7 @@
 ## **8. Encryption in EBS**
 - **Data at rest**: Encrypted using **AWS KMS**.
 - **Data in transit**: Encrypted if EBS is encrypted.
+- **Default Encryption** can be enabled in **EC2 settings**.
+- **Once encrypted, cannot be reversed** (must create a new unencrypted volume).
+
+---
