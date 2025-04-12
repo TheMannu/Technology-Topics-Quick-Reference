@@ -142,3 +142,6 @@
 # **Conclusion**
 - **EBS** provides **persistent, scalable, and high-performance** storage.
 - Supports **multi-attach (io1/io2)**, **snapshots**, and **encryption**.
+- Must reside in the **same AZ** as EC2 (use **snapshots** to migrate).
+- **Instance Store** is faster but **ephemeral** (data lost on stop).
+
