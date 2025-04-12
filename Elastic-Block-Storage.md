@@ -138,3 +138,7 @@
 - **Once encrypted, cannot be reversed** (must create a new unencrypted volume).
 
 ---
+
+# **Conclusion**
+- **EBS** provides **persistent, scalable, and high-performance** storage.
+- Supports **multi-attach (io1/io2)**, **snapshots**, and **encryption**.
