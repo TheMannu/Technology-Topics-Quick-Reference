@@ -20,4 +20,8 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
 ### **Step 2: Launch Two EC2 Instances in Different AZs**
 - **Instance 1:** `us-east-1a`  
 - **Instance 2:** `us-east-1b`  
-- Both must have: 
+- Both must have:   
+  - **IAM role** with `AmazonEC2FullAccess` (or minimum `AmazonElasticFileSystemClientReadWrite`).  
+  - **Security group allowing NFS (port 2049)**.  
+
+---
