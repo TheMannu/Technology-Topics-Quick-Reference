@@ -25,3 +25,9 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
   - **Security group allowing NFS (port 2049)**.  
 
 ---
+
+### **Step 3: Mount EFS on First EC2 Instance (us-east-1a)**
+1. **Connect via SSH**  
+   ```sh
+   ssh -i "key.pem" ec2-user@<Instance1-IP>
+   ```
