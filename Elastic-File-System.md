@@ -16,3 +16,8 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
    - Ensure the **EC2 security group allows NFS traffic (TCP 2049)**.
 
 ---
+
+### **Step 2: Launch Two EC2 Instances in Different AZs**
+- **Instance 1:** `us-east-1a`  
+- **Instance 2:** `us-east-1b`  
+- Both must have: 
