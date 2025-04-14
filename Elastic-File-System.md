@@ -50,4 +50,9 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
      ```sh
      mount -t efs -o tls fs-12345678:/ /efs
      ```
+   - Verify mounting:  
+     ```sh
+     mount -s | grep efs  # Check if mounted
+     df -h                # Verify storage
+     ```
 
