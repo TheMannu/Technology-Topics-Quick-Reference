@@ -42,3 +42,7 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
    ```sh
    mkdir /efs  
    ```
+
+4. **Mount EFS**  
+   - Go to **AWS EFS Console → Select EFS → Attach**.  
+   - Copy the **NFS mount command** (e.g., for `us-east-1a`). 
