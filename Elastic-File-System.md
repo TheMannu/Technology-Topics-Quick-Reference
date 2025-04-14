@@ -56,3 +56,13 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
      df -h                # Verify storage
      ```
 
+5. **Set Permissions & Test**  
+   ```sh
+   sudo chmod 777 /efs   # Allow read/write for all users  
+   cd /efs  
+   touch file{1..6}      # Create test files  
+   ls                    # Verify files exist
+   ```
+
+---
+
