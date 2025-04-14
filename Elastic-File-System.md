@@ -66,3 +66,9 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
 
 ---
 
+### **Step 4: Mount EFS on Second EC2 Instance (us-east-1b)**
+1. **Connect via SSH**  
+   ```sh
+   ssh -i "key.pem" ec2-user@<Instance2-IP>
+   ```
+
