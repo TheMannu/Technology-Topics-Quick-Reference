@@ -37,3 +37,8 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
    sudo -i  
    apt update -y  
    apt install amazon-efs-utils -y  # Installs EFS mount helper
+
+3. **Create Mount Directory**  
+   ```sh
+   mkdir /efs  
+   ```
