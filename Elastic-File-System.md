@@ -103,3 +103,9 @@ If you prefer a **self-managed NFS server**, follow these steps:
      yum install nfs-utils rpcbind -y  
      ```
 
+2. **Create Shared Directory**  
+   ```sh
+   mkdir /share  
+   touch /share/file.txt  
+   ```
+
