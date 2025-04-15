@@ -72,3 +72,9 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
    ssh -i "key.pem" ec2-user@<Instance2-IP>
    ```
 
+2. **Install EFS Utilities & Mount**  
+   ```sh
+   sudo -i  
+   apt update -y  
+   apt install amazon-efs-utils -y  
+
