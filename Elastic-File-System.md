@@ -109,3 +109,13 @@ If you prefer a **self-managed NFS server**, follow these steps:
    touch /share/file.txt  
    ```
 
+3. **Configure NFS Exports**  
+   ```sh
+   vim /etc/exports  
+   ```
+   - Add:  
+     ```
+     /share <IP-of-Server2>(rw,sync)  
+     ```
+   - Save (`:wq!`).
+
