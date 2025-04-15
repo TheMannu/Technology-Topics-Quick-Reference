@@ -92,3 +92,14 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
 ## **2. Setting Up an NFS Server (Alternative to EFS)**
 If you prefer a **self-managed NFS server**, follow these steps:
 
+### **Step 1: Install NFS on Server 1 (NFS Host)**
+1. **Check if NFS is installed**  
+   ```sh
+   yum list installed | grep nfs-utils  
+   yum list installed | grep rpcbind  
+   ```
+   - If not installed:  
+     ```sh
+     yum install nfs-utils rpcbind -y  
+     ```
+
