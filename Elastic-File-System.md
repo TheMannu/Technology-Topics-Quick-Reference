@@ -85,3 +85,10 @@ Amazon EFS (Elastic File System) is a **scalable, shared file storage** service 
    ls /efs   # Should show files created earlier (file1, file2, etc.)
    ```
 
+✅ **Now both instances share the same storage!** Changes in one appear in the other.
+
+---
+
+## **2. Setting Up an NFS Server (Alternative to EFS)**
+If you prefer a **self-managed NFS server**, follow these steps:
+
