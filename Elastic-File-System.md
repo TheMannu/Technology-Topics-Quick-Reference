@@ -119,3 +119,10 @@ If you prefer a **self-managed NFS server**, follow these steps:
      ```
    - Save (`:wq!`).
 
+4. **Start & Enable NFS Services**  
+   ```sh
+   systemctl start nfs rpcbind  
+   systemctl enable nfs rpcbind  
+   systemctl status nfs  
+   ```
+
