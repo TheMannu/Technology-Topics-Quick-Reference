@@ -164,3 +164,9 @@ firewall-cmd --list-all
 
 ---
 
+## **3. Key Differences: EFS vs. NFS**
+| Feature | **Amazon EFS** | **Self-Managed NFS** |
+|---------|--------------|------------------|
+| **Scalability** | Automatic (grows with usage) | Manual (depends on server storage) |
+| **Availability** | Multi-AZ (highly available) | Single server (needs backup) |
+
