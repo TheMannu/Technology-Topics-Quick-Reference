@@ -143,3 +143,14 @@ firewall-cmd --reload
 firewall-cmd --list-all  
 ```
 
+### **Step 3: Mount NFS on Server 2 (Client)**
+1. **Check Available Shares**  
+   ```sh
+   showmount -e <Server1-IP>  
+   ```
+   - Output:  
+     ```
+     Export list for 192.168.1.100:  
+     /share 192.168.1.101/24  
+     ```
+
