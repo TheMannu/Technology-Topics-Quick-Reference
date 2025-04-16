@@ -154,3 +154,13 @@ firewall-cmd --list-all
      /share 192.168.1.101/24  
      ```
 
+2. **Mount the NFS Share**  
+   ```sh
+   mkdir /access  
+   mount -t nfs <Server1-IP>:/share /access  
+   df -hT  # Verify mount  
+   ```
+   - Now `/access` contains files from `/share`.
+
+---
+
