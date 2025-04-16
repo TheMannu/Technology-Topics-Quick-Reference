@@ -132,3 +132,14 @@ If you prefer a **self-managed NFS server**, follow these steps:
    exportfs -rav  # Reload exports  
    ```
 
+### **Step 2: Configure Firewall (If NFS Fails)**
+If `showmount -e <Server1-IP>` fails, allow NFS traffic:  
+```sh
+firewall-cmd --permanent --add-service=nfs  
+firewall-cmd --permanent --add-service=2049/tcp  
+firewall-cmd --permanent --add-service=rpc-bind  
+firewall-cmd --permanent --add-service=mountd  
+firewall-cmd --reload  
+firewall-cmd --list-all  
+```
+
