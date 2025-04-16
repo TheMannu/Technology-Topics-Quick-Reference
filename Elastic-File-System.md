@@ -126,3 +126,9 @@ If you prefer a **self-managed NFS server**, follow these steps:
    systemctl status nfs  
    ```
 
+5. **Set Permissions**  
+   ```sh
+   chmod -R 777 /share  
+   exportfs -rav  # Reload exports  
+   ```
+
