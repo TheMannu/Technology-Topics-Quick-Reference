@@ -192,3 +192,6 @@ firewall-cmd --list-all
 - **Self-managed NFS** is **cheaper** but requires **manual configuration**.  
 - Both allow **shared storage** across multiple instances.  
 
+🔹 **For AWS cloud workloads, EFS is recommended** due to its simplicity and reliability.  
+🔹 **For on-premises or custom setups, NFS may be preferred**.
+
