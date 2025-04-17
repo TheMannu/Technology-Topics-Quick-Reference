@@ -187,3 +187,8 @@ firewall-cmd --list-all
 
 ---
 
+## **Conclusion**
+- **EFS** is **easier to set up**, **scalable**, and **fully managed**.  
+- **Self-managed NFS** is **cheaper** but requires **manual configuration**.  
+- Both allow **shared storage** across multiple instances.  
+
