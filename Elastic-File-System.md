@@ -169,4 +169,9 @@ firewall-cmd --list-all
 |---------|--------------|------------------|
 | **Scalability** | Automatic (grows with usage) | Manual (depends on server storage) |
 | **Availability** | Multi-AZ (highly available) | Single server (needs backup) |
+| **Performance** | Optimized for cloud workloads | Depends on server hardware |
+| **Management** | Fully managed by AWS | Requires manual setup & maintenance |
+| **Cost** | Pay per GB used | Lower cost but requires admin effort |
+
+---
 
