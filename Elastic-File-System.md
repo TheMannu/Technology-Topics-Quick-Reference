@@ -181,3 +181,9 @@ firewall-cmd --list-all
   - **Big Data** (Hadoop, Spark shared datasets).  
   - **CI/CD pipelines** (shared build artifacts).  
 
+- **NFS Server**:  
+  - **On-premises** file sharing.  
+  - **Legacy applications** requiring NFS.  
+
+---
+
