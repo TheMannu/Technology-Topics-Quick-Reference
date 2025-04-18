@@ -195,3 +195,9 @@ firewall-cmd --list-all
 🔹 **For AWS cloud workloads, EFS is recommended** due to its simplicity and reliability.  
 🔹 **For on-premises or custom setups, NFS may be preferred**.
 
+---
+
+## **1. Deep Dive into EFS Architecture**
+### **How EFS Works Under the Hood**
+- EFS uses **NFSv4.1 protocol** (with support for NFSv4.0)
+- Built on **AWS's highly durable storage backend** (same as S3)
