@@ -220,3 +220,6 @@ A 100GB EFS volume in bursting mode gets **100MB/s baseline** burstable to **300
 ```bash
 sudo mount -t efs -o tls,iam fs-12345678:/ /mnt/efs
 ```
+- `tls`: Enables encryption in transit
+- `iam`: Uses IAM for authentication
+- `noresvport`: Helps with connection failover
