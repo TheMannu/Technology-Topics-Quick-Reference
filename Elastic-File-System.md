@@ -214,3 +214,9 @@ firewall-cmd --list-all
 
 *Example:*  
 A 100GB EFS volume in bursting mode gets **100MB/s baseline** burstable to **300MB/s** temporarily.
+
+## **2. Advanced Mount Options**
+### **Mount Command Breakdown**
+```bash
+sudo mount -t efs -o tls,iam fs-12345678:/ /mnt/efs
+```
