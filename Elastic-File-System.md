@@ -211,3 +211,6 @@ firewall-cmd --list-all
 |------|------------|----------|
 | **Bursting** | Baseline throughput scales with storage size (1MB/s per GB up to 100MB/s) | Small to medium workloads |
 | **Provisioned** | Fixed throughput independent of storage size | Predictable high-performance needs |
+
+*Example:*  
+A 100GB EFS volume in bursting mode gets **100MB/s baseline** burstable to **300MB/s** temporarily.
