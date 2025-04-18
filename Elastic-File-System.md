@@ -201,3 +201,7 @@ firewall-cmd --list-all
 ### **How EFS Works Under the Hood**
 - EFS uses **NFSv4.1 protocol** (with support for NFSv4.0)
 - Built on **AWS's highly durable storage backend** (same as S3)
+- **Multi-AZ by default** - data is replicated across 3+ AZs
+- **Two performance modes**:
+  - **General Purpose** (default, low latency)
+  - **Max I/O** (higher throughput but slightly higher latency)
