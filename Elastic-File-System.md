@@ -205,3 +205,9 @@ firewall-cmd --list-all
 - **Two performance modes**:
   - **General Purpose** (default, low latency)
   - **Max I/O** (higher throughput but slightly higher latency)
+
+### **Throughput Modes**
+| Mode | Description | Use Case |
+|------|------------|----------|
+| **Bursting** | Baseline throughput scales with storage size (1MB/s per GB up to 100MB/s) | Small to medium workloads |
+| **Provisioned** | Fixed throughput independent of storage size | Predictable high-performance needs |
