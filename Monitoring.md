@@ -123,5 +123,3 @@ Helm is a Kubernetes package manager, similar to `apt` or `yum`, that simplifies
 - **Grafana:** Offers advanced data visualization and user-friendly dashboards.
 - Together, they form a robust monitoring stack for analyzing and visualizing time-series data efficiently.
 
-
-```
