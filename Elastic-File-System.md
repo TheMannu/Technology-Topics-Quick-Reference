@@ -245,3 +245,7 @@ hdparm -Tt /mnt/efs/testfile
 1. **File Sizing**:  
    - EFS performs best with **larger files** (>1MB)
    - Avoid millions of tiny files
+
+2. **Concurrency**:  
+   - Scale out with multiple EC2 instances for better throughput
+   - Each instance gets its own network throughput
