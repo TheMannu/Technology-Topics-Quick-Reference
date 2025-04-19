@@ -240,3 +240,8 @@ dd if=/dev/zero of=/mnt/efs/testfile bs=1G count=1 oflag=direct
 # Test read performance
 hdparm -Tt /mnt/efs/testfile
 ```
+
+### **Performance Tips**
+1. **File Sizing**:  
+   - EFS performs best with **larger files** (>1MB)
+   - Avoid millions of tiny files
