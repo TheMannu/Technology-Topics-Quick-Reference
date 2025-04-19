@@ -230,3 +230,9 @@ fs-12345678.efs.us-east-1.amazonaws.com:/ /mnt/efs efs _netdev,tls,iam 0 0
 ```
 - `_netdev`: Ensures mount waits for network availability
 - Best practice: Use **DNS name** instead of IP for reliability
+
+## **3. Performance Optimization**
+### **Benchmarking Your EFS**
+```bash
+# Test write performance
+dd if=/dev/zero of=/mnt/efs/testfile bs=1G count=1 oflag=direct
