@@ -223,3 +223,8 @@ sudo mount -t efs -o tls,iam fs-12345678:/ /mnt/efs
 - `tls`: Enables encryption in transit
 - `iam`: Uses IAM for authentication
 - `noresvport`: Helps with connection failover
+
+### **Fstab Configuration for Persistent Mounts**
+```bash
+fs-12345678.efs.us-east-1.amazonaws.com:/ /mnt/efs efs _netdev,tls,iam 0 0
+```
