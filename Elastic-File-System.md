@@ -249,3 +249,7 @@ hdparm -Tt /mnt/efs/testfile
 2. **Concurrency**:  
    - Scale out with multiple EC2 instances for better throughput
    - Each instance gets its own network throughput
+
+3. **Caching**:  
+   - Use **Amazon EFS Access Points** with different caching policies
+   - Consider **CloudFront** for static content
