@@ -236,3 +236,7 @@ fs-12345678.efs.us-east-1.amazonaws.com:/ /mnt/efs efs _netdev,tls,iam 0 0
 ```bash
 # Test write performance
 dd if=/dev/zero of=/mnt/efs/testfile bs=1G count=1 oflag=direct
+
+# Test read performance
+hdparm -Tt /mnt/efs/testfile
+```
