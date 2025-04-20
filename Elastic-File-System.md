@@ -260,3 +260,12 @@ hdparm -Tt /mnt/efs/testfile
 |------|---------------|-------|
 | **At Rest** | KMS (AWS-managed or CMK) | Enabled at filesystem creation |
 | **In Transit** | TLS 1.2+ | Enabled via mount options |
+
+### **Permission Management**
+```bash
+# Create access point with restricted permissions
+aws efs create-access-point \
+    --file-system-id fs-12345678 \
+    --posix-user Uid=1000,Gid=1000 \
+    --root-directory "Path=/project-a,CreationInfo={OwnerUid=1000,OwnerGid=1000,Permissions=750}"
+```
