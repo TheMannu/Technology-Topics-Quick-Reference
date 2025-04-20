@@ -284,3 +284,4 @@ aws efs put-lifecycle-configuration \
     --file-system-id fs-12345678 \
     --lifecycle-policies "TransitionToIA=AFTER_30_DAYS"
 ```
+- Moves files to **Infrequent Access (IA)** after 30 days (saves ~50% costs)
