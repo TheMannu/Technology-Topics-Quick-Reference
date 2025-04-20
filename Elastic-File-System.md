@@ -253,3 +253,10 @@ hdparm -Tt /mnt/efs/testfile
 3. **Caching**:  
    - Use **Amazon EFS Access Points** with different caching policies
    - Consider **CloudFront** for static content
+
+## **4. Security Best Practices**
+### **Encryption Options**
+| Type | Implementation | Notes |
+|------|---------------|-------|
+| **At Rest** | KMS (AWS-managed or CMK) | Enabled at filesystem creation |
+| **In Transit** | TLS 1.2+ | Enabled via mount options |
