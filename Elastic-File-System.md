@@ -285,3 +285,10 @@ aws efs put-lifecycle-configuration \
     --lifecycle-policies "TransitionToIA=AFTER_30_DAYS"
 ```
 - Moves files to **Infrequent Access (IA)** after 30 days (saves ~50% costs)
+
+
+### **Monitoring and Right-Sizing**
+- Key CloudWatch metrics:
+  - `StorageBytes` (track growth)
+  - `PermittedThroughput` (avoid throttling)
+  - `ClientConnections` (identify unused mounts)
