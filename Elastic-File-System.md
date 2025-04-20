@@ -269,3 +269,10 @@ aws efs create-access-point \
     --posix-user Uid=1000,Gid=1000 \
     --root-directory "Path=/project-a,CreationInfo={OwnerUid=1000,OwnerGid=1000,Permissions=750}"
 ```
+
+### **Network Security**
+- Always use **security groups** (not NACLs for fine control)
+- Recommended rules:
+  - Inbound: NFS (2049) from specific security groups
+  - Outbound: Ephemeral ports (32768-60999)
+
