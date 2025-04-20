@@ -276,3 +276,11 @@ aws efs create-access-point \
   - Inbound: NFS (2049) from specific security groups
   - Outbound: Ephemeral ports (32768-60999)
 
+
+## **5. Cost Optimization Strategies**
+### **Lifecycle Management**
+```bash
+aws efs put-lifecycle-configuration \
+    --file-system-id fs-12345678 \
+    --lifecycle-policies "TransitionToIA=AFTER_30_DAYS"
+```
