@@ -312,3 +312,8 @@ aws efs put-lifecycle-configuration \
    # Monitor file operations
    sudo efswatch /mnt/efs
    ```
+
+3. **Permission Issues**
+   ```bash
+   # Verify effective permissions
+   getfacl /mnt/efs/important-file
