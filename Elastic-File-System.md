@@ -292,3 +292,10 @@ aws efs put-lifecycle-configuration \
   - `StorageBytes` (track growth)
   - `PermittedThroughput` (avoid throttling)
   - `ClientConnections` (identify unused mounts)
+
+## **6. Troubleshooting Guide**
+### **Common Issues and Solutions**
+1. **Mount Timeouts**
+   ```bash
+   # Check DNS resolution
+   dig fs-12345678.efs.us-east-1.amazonaws.com
