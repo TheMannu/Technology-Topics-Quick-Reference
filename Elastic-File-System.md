@@ -317,3 +317,7 @@ aws efs put-lifecycle-configuration \
    ```bash
    # Verify effective permissions
    getfacl /mnt/efs/important-file
+
+   # Check for SELinux conflicts
+   ausearch -m avc -ts recent
+   ```
