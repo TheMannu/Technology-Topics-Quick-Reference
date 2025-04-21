@@ -308,3 +308,7 @@ aws efs put-lifecycle-configuration \
    ```bash
    # Check for network bottlenecks
    iftop -i eth0 -n
+
+   # Monitor file operations
+   sudo efswatch /mnt/efs
+   ```
