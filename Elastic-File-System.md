@@ -299,3 +299,7 @@ aws efs put-lifecycle-configuration \
    ```bash
    # Check DNS resolution
    dig fs-12345678.efs.us-east-1.amazonaws.com
+
+   # Verify security groups
+   aws ec2 describe-security-groups --group-ids sg-123456
+   ```
