@@ -303,3 +303,8 @@ aws efs put-lifecycle-configuration \
    # Verify security groups
    aws ec2 describe-security-groups --group-ids sg-123456
    ```
+
+2. **Performance Problems**
+   ```bash
+   # Check for network bottlenecks
+   iftop -i eth0 -n
