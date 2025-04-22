@@ -356,3 +356,7 @@ aws efs put-lifecycle-configuration \
    ```bash
    parallel -j 10 rsync -azP {} /mnt/efs/ ::: /source/*
    ```
+
+### **Hybrid Cloud Setup**
+- Use **AWS Storage Gateway** with NFS interface
+- Cache frequently accessed data on-premises
