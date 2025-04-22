@@ -339,3 +339,15 @@ aws efs put-lifecycle-configuration \
    ```bash
    fs-12345678:/wp-content /var/www/html/wp-content efs _netdev,tls,accesspoint=fsap-123456 0 0
    ```
+
+4. Enable **EFS IA** for media uploads older than 14 days
+
+## **8. Migration Strategies**
+### **Moving Data to EFS**
+1. **AWS DataSync**
+   ```bash
+   aws datasync create-task \
+     --source-location-type S3 \
+     --destination-location-type EFS \
+     --options VerifyMode=POINT_IN_TIME
+   ```
