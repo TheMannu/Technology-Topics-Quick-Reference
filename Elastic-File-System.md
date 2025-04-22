@@ -351,3 +351,8 @@ aws efs put-lifecycle-configuration \
      --destination-location-type EFS \
      --options VerifyMode=POINT_IN_TIME
    ```
+
+2. **Parallel Rsync**
+   ```bash
+   parallel -j 10 rsync -azP {} /mnt/efs/ ::: /source/*
+   ```
