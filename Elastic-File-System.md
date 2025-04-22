@@ -331,3 +331,8 @@ aws efs put-lifecycle-configuration \
   ├── [EC2 AZ2] → /var/www/html → EFS
   └── [EC2 AZ3] → /var/www/html → EFS
 ```
+
+**Implementation Steps:**
+1. Create EFS with **General Purpose** mode
+2. Set up **Access Point** with www-data user permissions
+3. Mount in fstab:
