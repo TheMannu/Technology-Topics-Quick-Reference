@@ -321,3 +321,13 @@ aws efs put-lifecycle-configuration \
    # Check for SELinux conflicts
    ausearch -m avc -ts recent
    ```
+
+## **7. Real-World Use Case: Web Server Cluster**
+### **WordPress on EFS Architecture**
+```
+[ELB]
+  │
+  ├── [EC2 AZ1] → /var/www/html → EFS
+  ├── [EC2 AZ2] → /var/www/html → EFS
+  └── [EC2 AZ3] → /var/www/html → EFS
+```
