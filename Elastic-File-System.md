@@ -336,3 +336,6 @@ aws efs put-lifecycle-configuration \
 1. Create EFS with **General Purpose** mode
 2. Set up **Access Point** with www-data user permissions
 3. Mount in fstab:
+   ```bash
+   fs-12345678:/wp-content /var/www/html/wp-content efs _netdev,tls,accesspoint=fsap-123456 0 0
+   ```
