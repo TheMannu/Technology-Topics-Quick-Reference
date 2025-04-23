@@ -360,3 +360,6 @@ aws efs put-lifecycle-configuration \
 ### **Hybrid Cloud Setup**
 - Use **AWS Storage Gateway** with NFS interface
 - Cache frequently accessed data on-premises
+
+## **9. Compliance Considerations**
+- **HIPAA**: Enable encryption and audit logging
