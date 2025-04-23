@@ -369,3 +369,4 @@ aws efs put-lifecycle-configuration \
 ## **10. Future-Proofing Your Setup**
 - **EFS Intelligent Tiering**: Automatic cost optimization
 - **Lambda Access**: Directly mount EFS to serverless functions
+- **Multi-Region Sync**: Use AWS Backup for DR scenarios
