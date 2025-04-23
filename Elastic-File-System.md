@@ -363,3 +363,5 @@ aws efs put-lifecycle-configuration \
 
 ## **9. Compliance Considerations**
 - **HIPAA**: Enable encryption and audit logging
+- **PCI DSS**: Implement VPC flow logs and strict SG rules
+- **GDPR**: Use customer-managed KMS keys
