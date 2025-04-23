@@ -365,3 +365,7 @@ aws efs put-lifecycle-configuration \
 - **HIPAA**: Enable encryption and audit logging
 - **PCI DSS**: Implement VPC flow logs and strict SG rules
 - **GDPR**: Use customer-managed KMS keys
+
+## **10. Future-Proofing Your Setup**
+- **EFS Intelligent Tiering**: Automatic cost optimization
+- **Lambda Access**: Directly mount EFS to serverless functions
