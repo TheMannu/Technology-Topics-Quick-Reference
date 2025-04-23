@@ -7,3 +7,6 @@ A **Load Balancer** acts as a **traffic manager** for web applications. It **eve
 - **Distributes traffic evenly** among multiple servers.
 - **Sends traffic only to healthy instances** (performs health checks).
 - **Ensures high availability** by rerouting traffic if a server fails.
+- **Provides a single point of access** (DNS endpoint) for applications.
+- **Supports SSL termination** (decrypts HTTPS traffic before forwarding).
+- **Enables session stickiness** (maintains user sessions on the same server using cookies).
