@@ -24,3 +24,9 @@ AWS offers **four types** of Elastic Load Balancers (ELBs):
 Each type operates at different **OSI layers** and has distinct use cases.
 
 ---
+
+## **3. Classic Load Balancer (CLB)**
+### **Overview**
+- The **oldest** type of AWS load balancer.
+- Operates at **Layer 4 (Transport Layer - TCP)** and **Layer 7 (Application Layer - HTTP/HTTPS)**.
+- Routes traffic between **clients and backend services** (EC2, Containers).
