@@ -44,3 +44,7 @@ Each type operates at different **OSI layers** and has distinct use cases.
 | Security Groups | 5 |
 | Registered Instances | 1000 |
 | Subnets per AZ | 1 |
+
+### **Demo: Creating a Classic Load Balancer**
+#### **Step 1: Launch EC2 Instances with Web Servers**
+Use **User Data** to install **Nginx** and configure a test page:
