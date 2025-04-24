@@ -36,3 +36,11 @@ Each type operates at different **OSI layers** and has distinct use cases.
 - The **oldest** type of AWS load balancer.
 - Operates at **Layer 4 (Transport Layer - TCP)** and **Layer 7 (Application Layer - HTTP/HTTPS)**.
 - Routes traffic between **clients and backend services** (EC2, Containers).
+
+### **CLB Components & Limits**
+| Component | Limit |
+|-----------|-------|
+| Listeners | 50 |
+| Security Groups | 5 |
+| Registered Instances | 1000 |
+| Subnets per AZ | 1 |
