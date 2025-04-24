@@ -48,3 +48,9 @@ Each type operates at different **OSI layers** and has distinct use cases.
 ### **Demo: Creating a Classic Load Balancer**
 #### **Step 1: Launch EC2 Instances with Web Servers**
 Use **User Data** to install **Nginx** and configure a test page:
+```bash
+#!/bin/bash
+sudo apt-get update
+sudo apt-get install nginx -y
+sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
+```
