@@ -69,3 +69,9 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 7. **Enable Cross-Zone Load Balancing** (distributes traffic across all AZs).
 8. **Enable Connection Draining** (allows in-flight requests to complete before removing an instance).
 9. **Review & Create**.
+
+#### **Step 3: Test Load Balancing**
+- Access the **CLB DNS name** in a browser.
+- Refresh multiple times to see traffic distributed across instances.
+
+---
