@@ -60,3 +60,8 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 2. **Select VPC & Availability Zones** (where EC2 instances are running).
 3. **Configure Security Group** (allow HTTP/HTTPS traffic).
 4. **Configure Listener Ports** (e.g., HTTP:80 → Instance Port:80).
+5. **Set Health Check Parameters**:
+   - **Response Timeout**: Time to wait for instance response.
+   - **Unhealthy Threshold**: Number of failed checks before marking as unhealthy.
+   - **Interval**: Time between health checks.
+   - **Healthy Threshold**: Number of successful checks before marking as healthy.
