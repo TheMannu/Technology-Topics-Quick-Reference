@@ -54,3 +54,9 @@ sudo apt-get update
 sudo apt-get install nginx -y
 sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 ```
+
+#### **Step 2: Create a Classic Load Balancer**
+1. **Go to EC2 Dashboard → Load Balancers → Create Load Balancer → Classic Load Balancer**.
+2. **Select VPC & Availability Zones** (where EC2 instances are running).
+3. **Configure Security Group** (allow HTTP/HTTPS traffic).
+4. **Configure Listener Ports** (e.g., HTTP:80 → Instance Port:80).
