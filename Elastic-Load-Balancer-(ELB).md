@@ -65,3 +65,7 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
    - **Unhealthy Threshold**: Number of failed checks before marking as unhealthy.
    - **Interval**: Time between health checks.
    - **Healthy Threshold**: Number of successful checks before marking as healthy.
+6. **Select EC2 Instances** to distribute traffic.
+7. **Enable Cross-Zone Load Balancing** (distributes traffic across all AZs).
+8. **Enable Connection Draining** (allows in-flight requests to complete before removing an instance).
+9. **Review & Create**.
