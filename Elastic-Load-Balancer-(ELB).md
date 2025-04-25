@@ -75,3 +75,11 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 - Refresh multiple times to see traffic distributed across instances.
 
 ---
+
+## **4. Application Load Balancer (ALB)**
+### **Overview**
+- Operates at **Layer 7 (HTTP/HTTPS/WebSocket)**.
+- **Intelligent routing** based on **URL path, hostname, query strings**.
+- **Supports microservices** (multiple target groups).
+- **Cross-Zone Load Balancing** (enabled by default).
+- **Supports SSL termination** (via ACM or third-party certificates).
