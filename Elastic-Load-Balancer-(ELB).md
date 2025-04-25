@@ -83,3 +83,6 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 - **Supports microservices** (multiple target groups).
 - **Cross-Zone Load Balancing** (enabled by default).
 - **Supports SSL termination** (via ACM or third-party certificates).
+- **Limitations:**
+  - **20 ALBs per region**.
+  - **3000 target groups per region**.
