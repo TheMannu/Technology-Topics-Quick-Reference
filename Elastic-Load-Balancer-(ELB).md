@@ -86,3 +86,12 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 - **Limitations:**
   - **20 ALBs per region**.
   - **3000 target groups per region**.
+
+### **ALB Components & Limits**
+| Component | Limit |
+|-----------|-------|
+| Listeners | 50 |
+| Targets per Load Balancer | 1000 |
+| Subnets per AZ | 1 |
+| Rules per Listener | 100 |
+| Security Groups | 5 |
