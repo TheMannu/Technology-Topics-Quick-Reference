@@ -95,3 +95,9 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 | Subnets per AZ | 1 |
 | Rules per Listener | 100 |
 | Security Groups | 5 |
+
+
+### **Demo: Creating an ALB**
+#### **Step 1: Configure Target Groups**
+1. **EC2 → Target Groups → Create Target Group**.
+2. **Select Target Type** (Instances, IPs, Lambda).
