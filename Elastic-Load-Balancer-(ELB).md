@@ -109,3 +109,7 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 1. **EC2 → Load Balancers → Create ALB**.
 2. **Configure Scheme (Internet-facing/internal)**.
 3. **Select VPC & Subnets** (minimum 2 AZs).
+4. **Assign Security Group** (allow HTTP/HTTPS).
+5. **Configure Listener** (HTTP:80 → Forward to Target Group).
+6. **Enable Stickiness (optional)**.
+7. **Review & Create**.
