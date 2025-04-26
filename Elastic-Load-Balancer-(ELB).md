@@ -113,3 +113,9 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 5. **Configure Listener** (HTTP:80 → Forward to Target Group).
 6. **Enable Stickiness (optional)**.
 7. **Review & Create**.
+
+#### **Step 3: Path-Based Routing**
+- **Create multiple target groups** (e.g., `/app1`, `/app2`).
+- **Edit ALB Listener Rules**:
+  - If path = `/app1*` → Forward to Target Group 1.
+  - If path = `/app2*` → Forward to Target Group 2.
