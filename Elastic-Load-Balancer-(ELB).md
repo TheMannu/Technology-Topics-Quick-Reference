@@ -101,3 +101,6 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 #### **Step 1: Configure Target Groups**
 1. **EC2 → Target Groups → Create Target Group**.
 2. **Select Target Type** (Instances, IPs, Lambda).
+3. **Set Protocol & Port** (e.g., HTTP:80).
+4. **Configure Health Checks** (path: `/`, timeout: 5s).
+5. **Register EC2 Instances**.
