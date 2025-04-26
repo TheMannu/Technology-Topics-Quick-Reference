@@ -104,3 +104,8 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 3. **Set Protocol & Port** (e.g., HTTP:80).
 4. **Configure Health Checks** (path: `/`, timeout: 5s).
 5. **Register EC2 Instances**.
+
+#### **Step 2: Create ALB**
+1. **EC2 → Load Balancers → Create ALB**.
+2. **Configure Scheme (Internet-facing/internal)**.
+3. **Select VPC & Subnets** (minimum 2 AZs).
