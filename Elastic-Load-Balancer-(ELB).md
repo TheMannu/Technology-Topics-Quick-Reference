@@ -119,3 +119,11 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/index.html
 - **Edit ALB Listener Rules**:
   - If path = `/app1*` → Forward to Target Group 1.
   - If path = `/app2*` → Forward to Target Group 2.
+
+Example **User Data** for path-based routing:
+```bash
+#!/bin/bash
+sudo apt-get update
+sudo apt-get install nginx -y
+
+```
