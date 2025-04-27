@@ -125,5 +125,7 @@ Example **User Data** for path-based routing:
 #!/bin/bash
 sudo apt-get update
 sudo apt-get install nginx -y
+mkdir -p /var/www/html/test
+sudo echo "this is private IP of machine $(hostname)" > /var/www/html/test/index.html
 
 ```
