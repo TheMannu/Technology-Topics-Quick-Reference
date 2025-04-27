@@ -139,3 +139,11 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/test/index
 - **Cross-Zone Load Balancing (disabled by default)**.
 - **Use Cases**: Gaming, VoIP, high-throughput apps.
 
+
+### **NLB Components & Limits**
+| Component | Limit |
+|-----------|-------|
+| Listeners | 50 |
+| Targets per AZ (Cross-Zone disabled) | 200 |
+| Targets per AZ (Cross-Zone enabled) | 200 |
+| Subnets per AZ | 1 |
