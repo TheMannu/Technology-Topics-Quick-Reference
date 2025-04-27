@@ -147,3 +147,15 @@ sudo echo "this is private IP of machine $(hostname)" > /var/www/html/test/index
 | Targets per AZ (Cross-Zone disabled) | 200 |
 | Targets per AZ (Cross-Zone enabled) | 200 |
 | Subnets per AZ | 1 |
+
+### **Demo: Testing NLB**
+```bash
+#!/bin/bash
+nwlb="Network Load Balancer DNS"
+for ((i=0;i<100;i++))
+do
+   curl ${nwlb}
+done
+```
+
+---
