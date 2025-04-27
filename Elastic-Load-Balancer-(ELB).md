@@ -129,3 +129,13 @@ mkdir -p /var/www/html/test
 sudo echo "this is private IP of machine $(hostname)" > /var/www/html/test/index.html
 
 ```
+
+
+## **5. Network Load Balancer (NLB)**
+### **Overview**
+- Operates at **Layer 4 (TCP/UDP)**.
+- **Ultra-low latency** (millions of requests/sec).
+- **Supports static IP & Elastic IP**.
+- **Cross-Zone Load Balancing (disabled by default)**.
+- **Use Cases**: Gaming, VoIP, high-throughput apps.
+
