@@ -159,3 +159,11 @@ done
 ```
 
 ---
+
+
+## **6. Gateway Load Balancer (GLB)**
+### **Overview**
+- Operates at **Layer 3 (IP Packets)**.
+- **Uses GENEVE protocol (Port 6081)**.
+- **Ideal for Firewalls, IDS/IPS, Deep Packet Inspection**.
+- **Transparent network gateway**.
