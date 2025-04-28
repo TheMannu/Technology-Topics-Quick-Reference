@@ -181,3 +181,8 @@ done
 |---------|-----|-----|-----|
 | **OSI Layer** | Layer 7 | Layer 4 | Layer 3 |
 | **Protocols** | HTTP/HTTPS/WebSocket | TCP/UDP | IP Packets (GENEVE) |
+| **Use Case** | Web Apps, Microservices | High-performance apps | Firewalls, IDS/IPS |
+| **Cross-Zone LB** | Enabled by default | Disabled by default | N/A |
+| **Static IP** | No | Yes | Yes |
+
+---
