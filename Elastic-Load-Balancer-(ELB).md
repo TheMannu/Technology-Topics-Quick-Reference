@@ -190,3 +190,5 @@ done
 ## **8. Conclusion**
 - **Use ALB** for **HTTP/HTTPS routing** (microservices, path-based routing).
 - **Use NLB** for **high-performance TCP/UDP** (gaming, VoIP).
+- **Use GLB** for **security appliances** (firewalls, IDS).
+- **Avoid CLB** (legacy, limited features).
