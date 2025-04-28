@@ -167,3 +167,11 @@ done
 - **Uses GENEVE protocol (Port 6081)**.
 - **Ideal for Firewalls, IDS/IPS, Deep Packet Inspection**.
 - **Transparent network gateway**.
+
+### **GLB Components & Limits**
+| Component | Limit |
+|-----------|-------|
+| GLBs per VPC | 10 |
+| Target Groups (GENEVE) | 10 |
+
+---
