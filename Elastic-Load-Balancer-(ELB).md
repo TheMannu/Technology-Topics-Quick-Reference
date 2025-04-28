@@ -192,3 +192,18 @@ done
 - **Use NLB** for **high-performance TCP/UDP** (gaming, VoIP).
 - **Use GLB** for **security appliances** (firewalls, IDS).
 - **Avoid CLB** (legacy, limited features).
+
+
+### Shell Script for testing Network Load Balancer
+
+- vi load.sh
+
+```bash
+#!/bin/bash
+
+nwlb="Network Load Balancer Hostname"
+       for ((i=0;i<100;I++))
+do
+       curl ${nwlb}
+done
+```
