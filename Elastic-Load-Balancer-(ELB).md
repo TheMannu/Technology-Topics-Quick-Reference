@@ -186,3 +186,7 @@ done
 | **Static IP** | No | Yes | Yes |
 
 ---
+
+## **8. Conclusion**
+- **Use ALB** for **HTTP/HTTPS routing** (microservices, path-based routing).
+- **Use NLB** for **high-performance TCP/UDP** (gaming, VoIP).
