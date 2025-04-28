@@ -175,3 +175,9 @@ done
 | Target Groups (GENEVE) | 10 |
 
 ---
+
+## **7. Comparison: ALB vs NLB vs GLB**
+| Feature | ALB | NLB | GLB |
+|---------|-----|-----|-----|
+| **OSI Layer** | Layer 7 | Layer 4 | Layer 3 |
+| **Protocols** | HTTP/HTTPS/WebSocket | TCP/UDP | IP Packets (GENEVE) |
