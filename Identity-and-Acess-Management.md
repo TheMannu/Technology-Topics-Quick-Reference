@@ -18,3 +18,9 @@
 In AWS Identity and Access Management (IAM), when a user is associated with multiple groups, the permissions are cumulative. This means that if you attach a user to two groups—one with permissions to read and write in Amazon S3, and another with explicit denials to read and write in S3—the user will ultimately be denied those permissions. 
 
 In IAM, explicit denials take precedence over permissions granted.  This is known as the "deny overrides" principle.So, if any group the user belongs to denies a certain permission, even if the other groups grant that permission, the denial will take precedence and the user will be denied access.
+
+In your scenario:
+- Group 1 grants read and write permissions to S3.
+- Group 2 denies read and write permissions to S3.
+
+If you attach both groups to a user, the user will not have permissions to read and write in S3. The explicit denial from Group 2 will override the permissions from Group 1.
