@@ -39,3 +39,8 @@ We can Also Enable MFA (Multi-Factor Authentication)
 - IAM dashboard - Add MFA
 The MFA keeps us safe from attacks that is done by Key Logger using background running program to send key logs to hackers
 That's why bank account login pages do have Virtual Keyboard to type using Mouse and  avoid Key Logger Attack
+
+## AWS CLI Configuration - aws configure 
+
+We can Create resources on AWS from CLI also and for that we need to configure AWS CLI in our Local System 
+- IAM dashboard - User - Select User - Security Credentials - Access Keys (Max Two) - Create Access Keys - Download CSV file - Done
