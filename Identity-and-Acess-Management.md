@@ -53,3 +53,6 @@ To Create An instance -
 Run - "aws ec2 run-instance --image-id=<Value> --instance-type=t2.micro --region=ap-south-1"
 
 example - "aws ec2 run-instances --image-id=ami-09a9858973b288bdd --instance-type=t3.micro --region=eu-north-1"
+
+To Check The available Instances - 
+Run - "aws ec2 describe-instances"
