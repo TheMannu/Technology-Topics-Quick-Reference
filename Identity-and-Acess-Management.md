@@ -27,8 +27,15 @@ If you attach both groups to a user, the user will not have permissions to read 
 
 So, the user will essentially have the least permissive set of permissions across all the groups they are associated with. In this case, the user would not be able to perform any S3 actions due to the explicit denial in Group 2.
 
+## Password Policies
+
 Brut Force Attach - A brute force attack is a hacking method that uses trial and error to crack passwords, login credentials, and encryption keys.
 
 To keep Our account safe from these types of attacks 
 We can Configure or Customize IAM Account Pasword Policies from 
-- IAM dashboard - Access Management - Account Setting - Edit Password Policy - Custom - Configure As per Our Requirements - Save Changes 
+- IAM dashboard - Access Management - Account Setting - Edit Password Policy - Custom - Configure As per Our Requirements - Save Changes
+
+We can Also Enable MFA (Multi-Factor Authentication)
+- IAM dashboard - Add MFA
+The MFA keeps us safe from attacks that is done by Key Logger using background running program to send key logs to hackers
+That's why bank account login pages do have Virtual Keyboard to type using Mouse and  avoid Key Logger Attack
