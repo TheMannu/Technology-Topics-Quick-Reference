@@ -48,3 +48,8 @@ We can Create resources on AWS from CLI also and for that we need to configure A
 Now Install CLI in our Local Machine Linux, Windows or Mac
 - Now open The CLI and Run Command - "aws --version" - "aws configure" - paste the Access Keys - Paste the Secret Access Keys - May Select Regions - May Select Output format.
 - Check With command - "AWS help" 
+
+To Create An instance - 
+Run - "aws ec2 run-instance --image-id=<Value> --instance-type=t2.micro --region=ap-south-1"
+
+example - "aws ec2 run-instances --image-id=ami-09a9858973b288bdd --instance-type=t3.micro --region=eu-north-1"
