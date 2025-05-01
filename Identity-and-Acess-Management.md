@@ -61,3 +61,6 @@ Run - "aws ec2 describe-instances"
 ## Configure Multiple 
 command - "aws configure --profile acc1" 
 Run - "aws ec2 describe-instances --profile acc1"
+
+Configure Default Account
+command - "aws configure --profile profileName" - "export AWS_DEFAULT_PROFILE=profileName"
