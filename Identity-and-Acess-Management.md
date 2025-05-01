@@ -67,3 +67,7 @@ command - "aws configure --profile profileName" - "export AWS_DEFAULT_PROFILE=pr
 
 ## IAM - Role
 A role is an IAM identity that you can create in your account that has specific permissions. An IAM role has some similarities to an IAM user. Roles and users are both AWS identities with permissions policies that determine what the identity can and cannot do in AWS.However, instead of being uniquely associated with one person, a role can be assumed by anyone who needs it. A role does not have standard long-term credentials such as a password or access keys associated with it. Instead, when you assume a role, it provides you with temporary security credentials for your role session.
+
+We can use roles to delegate access to users, applications, or services that don't normally have access to your AWS resources.
+
+The types of AWS Identity and Access Management (IAM) roles are categorized by their trust policies. The main types of IAM roles are:
