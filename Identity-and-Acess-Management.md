@@ -58,4 +58,6 @@ To Check The available Instances -
 Run - "aws ec2 describe-instances"
 
 
-## Configure Multiple AWS Accounts
+## Configure Multiple 
+command - "aws configure --profile acc1" 
+Run - "aws ec2 describe-instances --profile acc1"
