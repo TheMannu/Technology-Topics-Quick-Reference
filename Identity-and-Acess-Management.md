@@ -77,3 +77,5 @@ The types of AWS Identity and Access Management (IAM) roles are categorized by t
 • Web Identity role: A type of IAM role.
 • SAML 2.0 federation role: A type of IAM role.
 • Custom IAM role: A type of IAM role.
+
+IAM roles are associated with permissions that determine access within AWS. They are designed to be assumed by a user, service, or application to get temporary access to AWS resources.
