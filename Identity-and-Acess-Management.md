@@ -74,3 +74,6 @@ The types of AWS Identity and Access Management (IAM) roles are categorized by t
 
 • Service role: An application running on an EC2 instance can assume this role to perform actions in your account.
 • Service-linked role: This role is owned by AWS and includes all the permissions required to call other AWS services on your behalf.
+• Web Identity role: A type of IAM role.
+• SAML 2.0 federation role: A type of IAM role.
+• Custom IAM role: A type of IAM role.
