@@ -86,3 +86,6 @@ IAM roles are associated with permissions that determine access within AWS. They
 
 • Example Use Case:
 An application running on an EC2 instance assumes the service role to upload files to an S3 bucket or retrieve secrets from AWS Secrets Manager.
+
+2. Service-Linked Role
+• Definition: A role owned and managed by AWS that includes all permissions necessary for a specific AWS service to call other AWS services on your behalf.
