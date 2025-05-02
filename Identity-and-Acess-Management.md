@@ -96,3 +96,7 @@ An application running on an EC2 instance assumes the service role to upload fil
 
 • Example Use Case:
   - Amazon EC2 Auto Scaling creates a service-linked role that allows it to modify instance configurations, attach instances to load balancers, etc.
+
+3. Web Identity Role
+• Definition: A type of IAM role that allows federation with web identity providers (like Google, Facebook, or Amazon Cognito).
+• Purpose: This role is often used in mobile or web applications to authenticate users via an identity provider and grant them temporary credentials for AWS services.
