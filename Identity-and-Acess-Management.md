@@ -93,3 +93,6 @@ An application running on an EC2 instance assumes the service role to upload fil
 • Key Features:
   - AWS creates, manages, and attaches policies to the role automatically.
   - Cannot be manually deleted or modified unless the associated service is removed.
+
+• Example Use Case:
+  - Amazon EC2 Auto Scaling creates a service-linked role that allows it to modify instance configurations, attach instances to load balancers, etc.
