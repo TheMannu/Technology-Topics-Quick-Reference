@@ -79,3 +79,7 @@ The types of AWS Identity and Access Management (IAM) roles are categorized by t
 • Custom IAM role: A type of IAM role.
 
 IAM roles are associated with permissions that determine access within AWS. They are designed to be assumed by a user, service, or application to get temporary access to AWS resources.
+
+1. Service Role
+• Definition: A role assumed by an application or service running on an EC2 instance.
+• Purpose: It allows the EC2 instance to securely access and perform actions on AWS services (like reading from an S3 bucket, writing logs to CloudWatch, etc.) without requiring hard-coded credentials in the application.
