@@ -89,3 +89,7 @@ An application running on an EC2 instance assumes the service role to upload fil
 
 2. Service-Linked Role
 • Definition: A role owned and managed by AWS that includes all permissions necessary for a specific AWS service to call other AWS services on your behalf.
+
+• Key Features:
+  - AWS creates, manages, and attaches policies to the role automatically.
+  - Cannot be manually deleted or modified unless the associated service is removed.
