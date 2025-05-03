@@ -102,3 +102,7 @@ An application running on an EC2 instance assumes the service role to upload fil
 • Purpose: This role is often used in mobile or web applications to authenticate users via an identity provider and grant them temporary credentials for AWS services.
 • Example Use Case:
   - A mobile app using Amazon Cognito for authentication allows users to upload photos to an S3 bucket, with the app assuming the Web Identity role.
+
+4. SAML 2.0 Federation Role
+• Definition: A type of IAM role used for federated authentication with SAML 2.0-compatible identity providers (e.g., Microsoft Active Directory, Okta).
+• Purpose: Enables users to log in to AWS via an enterprise identity provider and assume roles with appropriate permissions.
