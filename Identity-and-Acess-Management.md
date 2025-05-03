@@ -100,3 +100,5 @@ An application running on an EC2 instance assumes the service role to upload fil
 3. Web Identity Role
 • Definition: A type of IAM role that allows federation with web identity providers (like Google, Facebook, or Amazon Cognito).
 • Purpose: This role is often used in mobile or web applications to authenticate users via an identity provider and grant them temporary credentials for AWS services.
+• Example Use Case:
+  - A mobile app using Amazon Cognito for authentication allows users to upload photos to an S3 bucket, with the app assuming the Web Identity role.
