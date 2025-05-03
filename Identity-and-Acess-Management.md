@@ -108,3 +108,7 @@ An application running on an EC2 instance assumes the service role to upload fil
 • Purpose: Enables users to log in to AWS via an enterprise identity provider and assume roles with appropriate permissions.
 • Example Use Case:
   - An employee logs into the company’s internal portal (using AD or Okta), and a SAML assertion grants them temporary access to AWS Management Console with the privileges associated with a specific role.
+  
+5. Custom IAM Role
+• Definition: A role created and defined manually by you (the user), tailored to meet specific permission requirements.
+• Purpose: Allows precise control over what actions can be performed on which AWS resources. 
