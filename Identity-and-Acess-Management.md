@@ -126,3 +126,6 @@ An application running on an EC2 instance assumes the service role to upload fil
 | **Custom IAM Role** |	User-defined	 | Tailored permissions for specific use cases.	| A Lambda function reads/writes from a DynamoDB table.
 
 ---
+Each role type serves a specific purpose, ensuring secure and fine-grained access to AWS resources in a variety of scenarios.
+
+---
