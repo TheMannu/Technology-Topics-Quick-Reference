@@ -114,3 +114,8 @@ An application running on an EC2 instance assumes the service role to upload fil
 • Purpose: Allows precise control over what actions can be performed on which AWS resources. 
 • Example Use Case:
   - A custom role is created for a Lambda function that grants permissions only to read/write data to specific DynamoDB tables or invoke specific AWS APIs. 
+
+### Comparison at a Glance:
+
+| **Role Type**          | **Who Owns It?**   | **Usage**                                      | **Example**                                                |
+|------------------------|-------------------|------------------------------------------------|------------------------------------------------------------|
