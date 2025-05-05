@@ -174,3 +174,7 @@ Steps to Create a User with Region-Specific Full EC2 Access
     ]
   }
   ```
+
+- Explanation:
+  - The first statement explicitly allows EC2 actions only in the us-west-2 region.
+  - The second statement denies EC2 actions in any region except us-west-2.
