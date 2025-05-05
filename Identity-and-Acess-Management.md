@@ -145,3 +145,19 @@ Steps to Create a User with Region-Specific Full EC2 Access
 
    - One to allow full EC2 access in the desired region.
    - Another to explicitly deny access to EC2 resources in all other regions.
+
+
+  ```yaml
+  {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "ec2:*",
+            "Resource": "*",
+            "Condition": {
+                "StringEquals": {
+                    "aws:RequestedRegion": "us-west-2"
+                }
+            }
+        },
