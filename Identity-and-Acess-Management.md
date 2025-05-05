@@ -183,3 +183,8 @@ Steps to Create a User with Region-Specific Full EC2 Access
 
    - Go to the IAM user you created.
    - Attach the custom policy (either directly or via a group).
+
+4. Test the Configuration:
+
+   - Log in as the IAM user (or use their access credentials) and attempt to perform EC2 operations in us-west-2 (should succeed).
+   - Try accessing EC2 resources in other regions (should be denied).
