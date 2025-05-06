@@ -204,3 +204,4 @@ Steps to Create a User with Region-Specific Full EC2 Access
 
 ### 2. **CloudShell is Region-Specific**
    - AWS CloudShell is indeed region-specific. When you launch CloudShell, it is tied to the AWS region that you have selected in the AWS Management Console.
+   - If you need to perform tasks in multiple regions, you will need to switch regions in the AWS Management Console and launch a new CloudShell session in each region.
