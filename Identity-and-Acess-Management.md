@@ -188,3 +188,7 @@ Steps to Create a User with Region-Specific Full EC2 Access
 
    - Log in as the IAM user (or use their access credentials) and attempt to perform EC2 operations in us-west-2 (should succeed).
    - Try accessing EC2 resources in other regions (should be denied).
+
+## Key Notes:
+- Condition Key Used:
+  - aws:RequestedRegion is used to specify the region in API requests. AWS ensures the user can only perform actions in the allowed region.
