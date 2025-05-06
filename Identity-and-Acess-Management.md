@@ -192,3 +192,7 @@ Steps to Create a User with Region-Specific Full EC2 Access
 ## Key Notes:
 - Condition Key Used:
   - aws:RequestedRegion is used to specify the region in API requests. AWS ensures the user can only perform actions in the allowed region.
+- Restricting Resources:
+  - The Resource: "*" field can be further restricted to specific EC2 resources (like instances, volumes, etc.) if needed.
+- Policy Priority:
+  - Explicit denies (as in this policy) always override allows, ensuring no accidental access to other regions.
