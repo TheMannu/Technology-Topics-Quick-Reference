@@ -210,3 +210,5 @@ Steps to Create a User with Region-Specific Full EC2 Access
    - It is a best practice to use IAM roles rather than storing long-term credentials (like access keys and secret keys) on your virtual machines or in your environment.
 
    - IAM roles provide temporary security credentials that are automatically rotated, reducing the risk of credential exposure.
+
+   - By using roles, you can follow the principle of least privilege, granting only the permissions necessary to perform specific tasks.
