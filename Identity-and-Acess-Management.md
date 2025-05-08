@@ -235,3 +235,6 @@ Steps to Create a User with Region-Specific Full EC2 Access
 
   - Secure: CloudShell automatically uses the credentials of the IAM user or role you are logged in as, so you don't need to manage or store additional credentials.
   - Integrated: Since it's integrated into the AWS Management Console, you can easily switch between regions and services.
+
+## Limitations:
+- Session Duration: CloudShell sessions have a maximum duration (currently 20 minutes of inactivity or 12 hours total, whichever comes first).
