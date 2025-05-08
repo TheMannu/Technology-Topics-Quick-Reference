@@ -242,3 +242,7 @@ Steps to Create a User with Region-Specific Full EC2 Access
 - Region-Specific: As mentioned, CloudShell is tied to the region you are working in, so you need to launch a new session if you switch regions.
 
 AWS CloudShell with IAM roles is a secure and efficient way to manage your AWS resources without the need to store long-term credentials on your virtual machines.
+
+
+## 1. AWS Access Analyzer
+AWS Access Analyzer helps identify unintended access to your resources by analyzing resource-based policies (e.g., S3 buckets, KMS keys, IAM roles, Lambda functions, etc.). It detects external access that may violate security best practices.
