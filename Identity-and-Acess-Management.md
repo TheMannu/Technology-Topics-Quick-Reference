@@ -258,3 +258,7 @@ AWS Access Analyzer helps identify unintended access to your resources by analyz
 
 ### Use Cases:
   - Detect if an S3 bucket is accidentally made public.
+
+  - Identify an IAM role that grants unnecessary permissions to an external AWS account.
+
+  - Validate new policies before deployment.
