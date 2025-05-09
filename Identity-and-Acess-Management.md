@@ -262,3 +262,6 @@ AWS Access Analyzer helps identify unintended access to your resources by analyz
   - Identify an IAM role that grants unnecessary permissions to an external AWS account.
 
   - Validate new policies before deployment.
+
+## 2. IAM Access Advisor
+Access Advisor provides last accessed information for IAM users, groups, and roles, showing which AWS services and actions were actually used.
