@@ -249,3 +249,7 @@ AWS Access Analyzer helps identify unintended access to your resources by analyz
 
 ### Key Features:
   - Identifies External Access: Finds resources shared with external entities (e.g., another AWS account, a public user, or an anonymous user).
+
+  - Policy Validation: Checks policies for errors and security risks.
+
+  - Findings Dashboard: Provides a list of findings with remediation steps.
