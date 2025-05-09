@@ -255,3 +255,6 @@ AWS Access Analyzer helps identify unintended access to your resources by analyz
   - Findings Dashboard: Provides a list of findings with remediation steps.
 
   - Continuous Monitoring: Continuously monitors for new or updated policies that may expose resources.
+
+### Use Cases:
+  - Detect if an S3 bucket is accidentally made public.
