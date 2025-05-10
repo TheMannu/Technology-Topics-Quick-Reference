@@ -270,3 +270,6 @@ Access Advisor provides last accessed information for IAM users, groups, and rol
   - Service-Level Access Tracking: Shows when an IAM entity (user/role/group) last accessed an AWS service.
   - Permission Optimization: Helps remove unused permissions (least privilege principle).
   - Time-Based Insights: Tracks access over the last 365 days.
+  
+### Use Cases:
+  - Identify if a role has permissions to EC2 but hasn’t used them in months → Remove unnecessary permissions.
