@@ -294,3 +294,5 @@ Access Advisor provides last accessed information for IAM users, groups, and rol
 ### Best Practices
 ✅ Regularly Review Access Advisor – Remove unused permissions to follow least privilege.
 ✅ Enable Access Analyzer – Continuously monitor for unintended external access.
+✅ Use AWS IAM Policy Simulator – Test policies before applying changes.
+✅ Automate with AWS Organizations & SCPs – Enforce guardrails across accounts.
