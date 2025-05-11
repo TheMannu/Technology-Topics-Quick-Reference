@@ -301,3 +301,11 @@ Access Advisor provides last accessed information for IAM users, groups, and rol
 1. Access Advisor shows that a DevOps IAM Role has unused RDS permissions for the past 6 months.
 
 2. Access Analyzer finds that an S3 bucket policy allows public read access.
+
+3. Take Action:
+
+  - Remove RDS permissions from the DevOps role (least privilege).
+
+  - Modify the S3 bucket policy to restrict public access.
+
+  - Document justifications for remaining permissions.
