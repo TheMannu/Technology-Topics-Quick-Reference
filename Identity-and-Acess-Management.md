@@ -363,3 +363,6 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 | `user` | IAM username | Check if the user is still active. |
 | `password_enabled` | Whether a login password is set | Disable if not needed. |
 | `password_last_used` | Last time password was used | Disable if unused for >90 days. |
+| `access_key_1_active` / `access_key_2_active` | Whether access keys exist | Disable/Delete unused keys. |
+| `access_key_1_last_used_date` | Last time access key was used | Rotate/Delete if unused. |
+| `mfa_active` | Whether MFA is enabled | **Enforce MFA** if disabled. |
