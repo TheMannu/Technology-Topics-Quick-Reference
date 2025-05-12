@@ -341,3 +341,9 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 - Can be opened in Excel, Google Sheets, or analyzed programmatically
 
 ---
+
+## How to Generate & Download the Credentials Report
+### Using AWS Management Console
+  1. Go to IAM Dashboard → Credential Report.
+  2. Click "Download Report" (if available) or "Generate Report" (if first time).
+  3. Once generated, download the CSV file.
