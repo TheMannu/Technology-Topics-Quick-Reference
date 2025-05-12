@@ -351,3 +351,7 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
   ### Using AWS CLI
   ```bash
   aws iam generate-credential-report   # Generate the report (if not already available)
+
+  aws iam get-credential-report --output text --query Content | base64 --decode > credential-report.csv  # Download the report
+
+  ```
