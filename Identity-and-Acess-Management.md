@@ -382,3 +382,7 @@ The AWS IAM Credentials Report is a comprehensive CSV (Excel-compatible) report 
 ### **Automating Remediation**
 You can automate checks using:
 - **AWS Config Rules** (e.g., `iam-user-mfa-enabled`, `access-keys-rotated`)  
+- **AWS Lambda + EventBridge** (to schedule periodic reviews)  
+- **AWS Security Hub** (for centralized compliance tracking)  
+
+---
